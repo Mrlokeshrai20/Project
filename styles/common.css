@@ -1,0 +1,31 @@
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;    
+}
+
+button{
+    padding: 10px 20px;
+    
+    color: white;
+    background-color: rgb(5, 49, 207);
+    border-color: aliceblue;
+    margin: 10px;
+}
+#heading{
+    font-family: 'Montez', 'cursive';
+    font-size: 40px;
+    color: rgb(4, 4, 135);
+}
+#sub-heading{
+    font-family: Ubuntu Mono;
+    font-size: medium;
+}
+.model-1{
+    margin-left: 20px;
+}
+.model-2{
+    margin-right: 20px;
+}
