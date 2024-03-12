@@ -5,6 +5,9 @@
     <!-- TODO: Include Font Awesome file here -->
     <!-- TODO: Include Google Fonts file here -->
     <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="./styles/index.css" rel="stylesheet">
     <link href="./styles/common.css" rel="stylesheet">
 </head>
@@ -17,11 +20,36 @@
             <p id="sub-heading" >Explore, Imagine, Create</p>
         </div>
         <div class="model-2">
-            <button id="sign-up-btn">Sign Up</button>
+            <button id="sign-up-btn" onclick="openPop()">Sign Up</button>
             <button id="sign-in-btn">Sign In</button>
         </div>
     </nav>
+    <main id="section-2">
+        <button id="all-post" class="main-btn">All Post</button>
+        <button id="create-post" class="main-btn">Create Post</button>
+        <div id="modal" class="modal">
+            <div id="popup-mod" class="popup" >
+                <div id="title">
+                <div class="popup-title" >Get Started</div>
+                <span class="close">&times;</span>
+                </div>
+                <hr>
+                <label class="label">Name</label><br>
+                <input id="name" class="input-name" placeholder="Enter your name"><br>
+                <label class="label">Username</label><br>
+                <input id="user" class="input-user" placeholder="Enter your username"><br>
+                <label class="label">Password</label><br>
+                <input id="pass" class="input-pass" placeholder="Enter your password"><br>
+                <label class="label">Confirm Password</label><br>
+                <input id="confirm-pass" class="input-cpass" placeholder="Re enter your password">
+                <input id="popup-sign-up-btn" class="popup-btn" value="Sign Up" type="submit">
+            </div>
+        </div>
+    </main>
   </div>
+  
+  <script src="./scripts/common.js">  </script>
+  <script src="./scripts/index.js"></script>
 </body>
 
 </html>

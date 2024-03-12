@@ -8,7 +8,6 @@ nav{
 
 button{
     padding: 10px 20px;
-    
     color: white;
     background-color: rgb(5, 49, 207);
     border-color: aliceblue;
@@ -29,3 +28,67 @@ button{
 .model-2{
     margin-right: 20px;
 }
+.popup{
+    visibility: hidden;
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+    padding: 20px 30px 30px;
+    color: #333;
+    font-family: 'Roboto';
+}
+.popup hr{
+    color: rgb(128, 128, 128);
+    margin-bottom: 15px;
+}
+.popup-title{
+    color: rgb(128, 128, 128);
+    font-size: 28px;
+}
+.popup input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+   
+}
+label{
+    font-size: large;
+    font-weight: normal;
+}
+.close {
+    color: #aaaaaa;
+    /* float: right; */
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #popup-sign-up-btn{
+    background-color: rgb(87, 212, 87);
+    width: 100%;
+    color: #fff;
+    padding: 10px 20px;
+    color: white;
+    border-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: large;
+  }
+  #title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 

@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
-
 .container{
     width: 100%;
     min-height: 100vh;
     background-image: linear-gradient(rgba(244, 244, 238, 0.65),rgba(67, 45, 72, 0.65)) ,url(../images/background.png);
     background-size: cover;
-    background-position: center;
+    background-position: relative;
     padding: 10px 8px;
 }
+.main-btn{
+    background-color: rgb(249, 167, 60);
+    color: rgb(38, 37, 37);
+}
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center; /* center horizontally */
+    align-items: center;/* center vertically */
+}
+
