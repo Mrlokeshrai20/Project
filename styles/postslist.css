@@ -109,6 +109,7 @@ body{
 }
 
 .delete-modal{
+  /* transition: 0.3s; */
   visibility: hidden;
   display: flex;
   justify-content: center;
@@ -124,6 +125,7 @@ body{
 }
 .active{
   visibility: visible;
+  transition: 0.3s;
 }
 .overlay{
   visibility: hidden;
@@ -133,6 +135,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: rgba(0, 0,0, 0.7);
+
 }
 .delete-cont{
   width: fit-content;

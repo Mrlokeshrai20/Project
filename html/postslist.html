@@ -148,16 +148,15 @@
         <!-- TODO: Write code for delete post modal here -->
 
     </div>
-    <div class="overlay"></div>
-    <div class="delete-modal">
-        
-        <div class="delete-cont">
+    <div id="overlay" class="overlay"></div>
+    <div id="delete-content" class="delete-modal">
+        <div  class="delete-cont">
             <div class="delete-text">
                 <p>Are you you want to delete this post</p>
             </div>
             <div class="delete-action">
-                <button class="yes-btn">Yes</button>
-                <button class="no-btn">No</button>
+                <button class="yes-btn" onclick="yesBtn()">Yes</button>
+                <button class="no-btn" onclick="noBtn()">No</button>
             </div>
         </div>
         
